@@ -4,11 +4,11 @@
 Optimization of backwashing management using a multi-objective particle swarm algorithm to simulate groundwater recharge to prevent clogging.
 
 ##code 
-Feclogg.m
-PSOFETSS.m
-dfe3.mph
-fe1.mph
-fe2.mph
+	Feclogg.m
+	PSOFETSS.m
+	dfe3.mph
+	fe1.mph
+	fe2.mph
 
 ##Software installation and configuration
 COMSOL Multiphysics（Recommended version 6.0 or higher）;
