@@ -1,25 +1,28 @@
-#莫普索
-＃＃标题
-使用多目标粒子群算法模拟模型生成管理的补冲洗。
-##代码名称
-菲克洛格
-场效应晶体管
+##MOPSO
+
+##present 
+Optimization of backwashing management using a multi-objective particle swarm algorithm to simulate groundwater recharge to prevent clogging.
+
+##code 
+Feclogg.m
+PSOFETSS.m
 dfe3.mph
 fe1.mph
 fe2.mph
-##
-张天骄，朱琪，张文，Hamza Jakada
-＃＃介绍
-此代码库包含使用 MATLAB 控制 COMSOL Multiphysics 模型的示例代码。压力控制演示如何通过 MATLAB 建立模型、运行模拟和处理结果。
 
-##安装和配置
-COMSOL Multiphysics（建议版本6.0或更高版本）；
-MATLAB（推荐版本R2022b或更高版本）；
-COMSOL 与 MATLAB 接口（LiveLink for MATLAB）；
-IPhreeqcCOM。
+##Software installation and configuration
+COMSOL Multiphysics（Recommended version 6.0 or higher）;
+MATLAB（Recommended version R2022b or higher）;
+COMSOL Multiphysics with MATLAB（LiveLink for MATLAB）;
+IPhreeqcCOM.
 
-用户指南
-1、确保COMSOL Multiphysics 和 MATLAB 正确安装，并启用了 LiveLink for MATLAB。
-2、在MATLAB中，打开主脚本文件PSOFETSS.m。
-3、后续注释将适当修改堵塞或PSO参数
-该脚本将与 COMSOL Multiphysics 交互以创建、模拟和分析模型。结果将在 MATLAB 命令和图形中显示。
+##User Guide
+1. Make sure that COMSOL Multiphysics and MATLAB are properly installed and that LiveLink for MATLAB is enabled.
+2. After downloading IPhreeqcCOM from the official PHREEQC website, change the location of IPhreeqcCOM in the Feclogg file(ex:iphreeqc.LoadDatabase('E:\IPHREEQCCOM\database\phreeqc.dat').
+3. The .mph file is downloaded and saved in the default path of COMSOL Multiphysics with MATLAB(ex:C:\Users\Administrator\.comsol\v62\llmatlab).
+4. In MATLAB, open the main script file PSOFETSS.m.
+5. Subsequent comments will modify the blocking or PSO parameters as appropriate
+The script will interact with COMSOL Multiphysics to create, simulate and analyze the model. The results will be displayed in MATLAB commands and graphs.
+
+##Testing
+After running PSOFETSS, the Pareto frontier plot and other data are obtained.
